@@ -40,14 +40,14 @@ const About = () => {
                         <div className="flex flex-col flex-1">
                             <h1 className="lg:text-2xl text-lg font-semibold pb-6">Participations</h1>
         <div className="pb-3">
-                            <div className='flex flex-row justify-between pb-1 '>
+                            <div className='flex flex-row flex-wrap justify-between pb-1 '>
                                 <h4 className="text-base">DesignUX - Organised by DoIT, RGPV </h4>
                                 <p className="text-base">June 2021</p>
                             </div>
                             <p className="text-sm"> Status : <span className="italic text-green-400 font-normal">Won</span> </p>
                             </div>
                             <div className="pb-3">
-                            <div className='flex flex-row justify-between pb-1 '>
+                            <div className='flex flex-row flex-wrap justify-between pb-1 '>
                                 <h4 className="text-base"> Hackathon - Organised by MANIT </h4>
                                 <p className="text-base">Feb 2023</p>
                             </div>
@@ -56,14 +56,14 @@ const About = () => {
 
                             <h1 className="lg:text-2xl text-lg font-semibold pb-6 pt-6">Position of Responsibility</h1>
         <div className="pb-3">
-                            <div className='flex flex-row justify-between pb-1 '>
+                            <div className='flex flex-row flex-wrap justify-between pb-1 '>
                                 <h4 className="text-base">Open Source Executive</h4>
                                 <p className="text-base">Dec 2022 - Oct 2023</p>
                             </div>
                             <p className="text-sm text-gray-400"> Asper</p>
                             </div>
                             <div className="pb-3">
-                            <div className='flex flex-row justify-between pb-1 '>
+                            <div className='flex flex-row flex-wrap justify-between pb-1 '>
                                 <h4 className="text-base"> Cohead Web Development</h4>
                                 <p className="text-base">Feb 2022 - Nov 2022</p>
                             </div>
