@@ -26,8 +26,8 @@ const Hero = () => {
         <>
             <div  className="flex justify-center items-center lg:px-32 px-8 lg:py-16 py-10 lg:h-[90vh]  overflow-hidden from-purple-900 via-purple-900 to-black relative" style={backgroundStyles} >
                 <div className='absolute overflow-hidden -top-24 left-0 w-full bg-blend-multiply '>
-                <Image src={bg} alt='img'className=' opacity-5 w-full h-full object-fill '  />
-                <Image src={bg} alt='img'className=' opacity-5 w-full h-full object-fill -mt-12 lg:hidden block'  />
+                <Image src={bg} alt='img'className='  w-full h-full object-fill ' style={{ opacity: 0.02}} />
+                <Image src={bg} alt='img'className='  w-full h-full object-fill -mt-12 lg:hidden block' style={{ opacity: 0.02}}  />
                 </div>
 
                 <div className="container mx-auto z-40">
@@ -44,7 +44,6 @@ const Hero = () => {
                                     <h1 className='lg:text-lg text-sm rounded-md font-normal text-gray-400 '> Frontend Developer, Open Source Enthusiast </h1>
                                 </div>
 
-                                {/* <p className='lg:text-lg text-base py-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestiae deleniti, nulla numquam dicta pariatur iure obcaecati. Nemo iure fugiat sit nam explicabo distinctio, dolorum quasi officiis architecto, amet eum?</p> */}
                             </div>
                         </div>
 

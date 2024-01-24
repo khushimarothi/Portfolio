@@ -5,7 +5,7 @@ const Contact = () => {
         <>
             <div className="flex justify-center items-center lg:px-32 px-8 lg:pt-28 lg:pb-16 py-10 bg-gradient-to-r from-black via-black to-gray-900 ">
                 <div className="container mx-auto">
-                    <div className="flex lg:flex-row flex-col lg:gap-16 gap-8 bg-gradient-to-r from-indigo-950 via-slate-900  to-black rounded-lg lg:px-14 lg:py-12 px-8 py-8">
+                    <div className="flex lg:flex-row flex-col lg:gap-16 gap-8 bg-gradient-to-r from-indigo-950 via-gray-900  to-black rounded-lg lg:px-14 lg:py-12 px-8 py-8">
 
                         <div className="flex flex-col flex-1 ">
 
