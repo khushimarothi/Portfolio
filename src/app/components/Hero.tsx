@@ -5,7 +5,8 @@ import bg from "@/app/assets/bg.svg"
 
 const Hero = () => {
     const textStyles = {
-        backgroundImage: 'linear-gradient(to right, rgb(126, 34, 206), rgb(168, 85, 247), rgb(109, 40, 217))',
+        backgroundImage: 'linear-gradient(to right, rgb(147, 51, 234), rgb(192, 132, 252), rgb(107, 33, 168))',
+        
         WebkitBackgroundClip: 'text',
         backgroundClip: 'text',
         color: 'transparent',
@@ -24,7 +25,7 @@ const Hero = () => {
     return (
         <>
             <div  className="flex justify-center items-center lg:px-32 px-8 lg:py-16 py-10 lg:h-[90vh]  overflow-hidden from-purple-900 via-purple-900 to-black relative" style={backgroundStyles} >
-                <div className='absolute overflow-hidden -top-24 left-0 w-full '>
+                <div className='absolute overflow-hidden -top-24 left-0 w-full bg-blend-multiply '>
                 <Image src={bg} alt='img'className=' opacity-5 w-full h-full object-fill '  />
                 <Image src={bg} alt='img'className=' opacity-5 w-full h-full object-fill -mt-12 lg:hidden block'  />
                 </div>
