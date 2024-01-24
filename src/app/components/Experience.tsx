@@ -21,13 +21,13 @@ const Experience = () => {
                         <div className="flex flex-col gap-5 flex-1">
                         <div className='flex flex-row gap-5 text-center justify-center  '>
 								<div  className={`border gap-10 border-white rounded-md p-5 lg:w-2/4 cursor-pointer ${
-                    activeTab === 'work' ? 'bg-indigo-400' : ''
+                    activeTab === 'work' ? 'bg-purple-800' : ''
                   }`}
                   onClick={() => handleTabClick('work')}>
 									<h1 className='lg:text-xl text-sm font-bold text-center'>Work Experience </h1>
 								</div>
 								<div className={`border gap-10 border-white rounded-md p-5 lg:w-2/4 cursor-pointer ${
-                    activeTab === 'education' ? 'bg-indigo-400' : ''
+                    activeTab === 'education' ? 'bg-purple-800' : ''
                   }`}
                   onClick={() => handleTabClick('education')}>
 									<h1 className='lg:text-xl text-sm font-bold text-center flex justify-center items-center my-auto'>Education</h1>
@@ -43,7 +43,7 @@ const Experience = () => {
 					<div className="grid gap-4 ">
 						<div className="relative col-span-12 px-4 space-y-6 ">
 							<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:dark:bg-gray-700">
-								<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-indigo-400">
+								<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-purple-400">
 								   <h3 className="lg:text-xl text-lg font-semibold tracki">Frontend Development Intern </h3>
 								   <h3 className="lg:text-lg text-base font-medium tracki pb-1 dark:text-gray-300">CrewLance.in</h3>
 								   <time className="text-xs tracki uppercase dark:text-gray-400">Dec 2023 - Jan 2024</time>
@@ -52,7 +52,7 @@ const Experience = () => {
 									<li className='mt-3'>Focused on elevating the frontend experience, actively participating in the development of visual elements and user interactions for the official website.</li>
 								  </ul>
 								</div>
-								<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-indigo-400">
+								<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-purple-400">
 								   <h3 className="lg:text-xl text-lg font-semibold tracki">DevRel Contributor </h3>
 								   <h3 className="lg:text-lg text-base font-medium tracki pb-1 dark:text-gray-300">Keploy</h3>
 								   <time className="text-xs tracki uppercase dark:text-gray-400">May 2023 - June 2023</time>
@@ -61,7 +61,7 @@ const Experience = () => {
 									<li className='mt-3'>Actively participated in Keploy sessions, demonstrating a strong grasp of the tool's concepts and practical applications.</li>
 								  </ul>
 								</div>
-								<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-indigo-400">
+								<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-purple-400">
 									<h3 className="lg:text-xl text-lg font-semibold tracki">Open Source Contributor </h3>
 								   <h3 className="lg:text-lg text-base font-medium tracki pb-1 dark:text-gray-300">JWoC</h3>
 								   <time className="text-xs tracki uppercase dark:text-gray-400">Feb 2023 - March 2023</time>
@@ -83,13 +83,13 @@ const Experience = () => {
 				   <div className="grid gap-4 ">
 					   <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
 						   <div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:dark:bg-gray-700">
-							   <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-indigo-400">
+							   <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-purple-400">
 								   <h3 className="lg:text-xl text-lg font-semibold tracki">B.Tech ( Computer Science & Business System ) </h3>
 								   <h3 className="lg:text-lg text-base font-medium tracki pb-1 dark:text-gray-300">School of Information Technology, RGPV </h3>
 								   <time className="text-xs tracki uppercase dark:text-gray-400">2020 - Present</time>
 								   <p className="mt-3"><span className='font-bold text-base'>CGPA</span> - 8.84 / 10</p>
 							   </div>
-							   <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-indigo-400">
+							   <div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-purple-400">
 							       <h3 className="lg:text-xl text-lg font-semibold tracki">Higher Secondary Education ( CBSE ) </h3>
 								   <h3 className="lg:text-lg text-base font-medium tracki pb-1 dark:text-gray-300">St. John's Sr Sec School ( Damoh ) </h3>
 								   <time className="text-xs tracki uppercase dark:text-gray-400">2018 - 2020</time>

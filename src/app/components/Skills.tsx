@@ -50,7 +50,7 @@ const Skills = () => {
             <h2 className='text-xs mb-2'>{percentage}%</h2>
           </div>
           <div className='bg-stroke dark:bg-white relative h-1.5 w-full rounded-2xl'>
-            <div className={`bg-blue-500 absolute top-0 left-0 h-full rounded-2xl`} style={{ width: `${percentage}%` }}></div>
+            <div className={`bg-purple-500 absolute top-0 left-0 h-full rounded-2xl`} style={{ width: `${percentage}%` }}></div>
           </div>
         </div>
       ))}
@@ -74,11 +74,11 @@ const Skills = () => {
  <div
    key={category}
    className={`border gap-10 border-white rounded-lg p-5 relative grid items-center justify-center cursor-pointer h-[100px] ${
-     selectedCategories.includes(category) ? 'bg-indigo-400' : ''
+     selectedCategories.includes(category) ? 'bg-purple-800' : ''
    }`}
    onClick={() => handleCategoryChange(category)}
  >
-   <div className='absolute -top-4 -left-4  text-white bg-slate-600 px-3 py-3 rounded-md text-center '>
+   <div className='absolute -top-4 -left-4  text-white bg-gray-600 px-3 py-3 rounded-md text-center '>
      <FiCode className="text-xl  text-white text-center" />
    </div>
    <h1 className="lg:text-xl text-sm font-bold text-center break-all">{category}</h1>

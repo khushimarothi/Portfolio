@@ -55,13 +55,13 @@ const SocialLinks: React.FC = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed z-30">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex flex-row justify-center items-center w-28 h-10 px-2 py-4 ml-[-80px] text-sm  hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex flex-row justify-center items-center w-28 h-10 px-2 py-4 ml-[-80px] text-sm  hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-700" +
               " " +
               style
             }
