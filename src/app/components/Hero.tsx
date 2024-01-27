@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image"
-import heroimg from "@/app/assets/heroImage.png"
+import heroimg from "@/app/assets/mainimg.png"
 import bg from "@/app/assets/bg.svg"
 
 const Hero = () => {
