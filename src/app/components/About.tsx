@@ -15,13 +15,11 @@ const About = () => {
                 <div className="lg:pb-14 pb-8">
                         <h1 className="font-bold lg:text-4xl text-2xl ">About Me</h1>
                     </div>
-                    {/* <div className="text-center sm:text-left before:block before:w-20 before:h-2 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-gradient-to-r before:from-purple-800  before:via-purple-600 before:to-purple-400 before:bg-opacity-5  lg:pb-14 pb-8">
-				</div> */}
                     <div className="flex lg:flex-row flex-col justify-evenly  lg:gap-16 gap-8 ">
 
                     <div className="flex flex-col  flex-1 gap-3 ">
-                        <h3 className="lg:text-3xl text-lg font-bold" style={textStyles}>I design and code beautifully simple things, and I love what I do.</h3>
-                            <p className="lg:text-base text-sm text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, corporis vero ab est autem, ex, ut aliquam fugiat magnam excepturi explicabo adipisci quo! Veniam, dolo. ipsum dolor sit amet consectetur adipisicing elit. Fuga, corporis vero ab est autem, ex, ut aliquam fugiat magnam excepturi explicabo adipisci quo! Veniam, dolo</p>
+                        <h3 className="lg:text-3xl text-lg font-bold pb-4" style={textStyles}>I design and code beautifully simple things, and I love what I do.</h3>
+                            <p className="lg:text-base text-sm text-gray-400">Hello there, I'm Khushi Marothi – your friendly neighborhood frontend wizard, competitive coding ninja, and the self-proclaimed Picasso of pixels! When I'm not busy crafting delightful UI/UX experiences that make websites jealous, you can catch me in a coding duel, challenging bugs to a friendly match. Open source is my playground, where I've left my mark on more projects than my coffee cup has left on my keyboard. They say laughter is the best medicine, but have you tried debugging with a punchline? Spoiler alert: It works wonders!</p>
                         </div>
                        
                     <div className="flex flex-col flex-1 gap-5">
@@ -58,21 +56,6 @@ const About = () => {
     <p className="lg:text-base text-sm text-gray-400"> I excel in swiftly adapting to dynamic environments, quickly grasping new concepts, and staying ahead by acquiring new skills. My passion for learning enables me to thrive in challenging work settings.</p>
 </div>
 </div>
-
-        {/* <div className="">
-                            <div className='flex flex-row flex-wrap justify-between pb-1 '>
-                                <h4 className="text-base">DesignUX - Organised by DoIT, RGPV </h4>
-                                <p className="text-base">June 2021</p>
-                            </div>
-                            <p className="text-sm"> Status : <span className="italic text-green-400 font-normal">Won</span> </p>
-                            </div>
- <div className="pb-3">
-                            <div className='flex flex-row flex-wrap justify-between pb-1 '>
-                                <h4 className="text-base"> Hackathon - Organised by MANIT </h4>
-                                <p className="text-base">Feb 2023</p>
-                            </div>
-                            <p className="text-sm"> Status : <span className="italic text-indigo-400 font-normal">Participated</span> </p>
-                            </div> */}
 
                     </div>
 

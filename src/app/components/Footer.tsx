@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
 
             <div className="py-2 flex flex-row justify-center items-center bg-black"> 
-            <h1 className="lg:text-sm text-xs"> All rights reserved. Created by <span className="">Khushi Marothi</span></h1>
+            <h1 className="lg:text-sm text-xs text-gray-400"> All rights reserved. Created by <span className="">Khushi Marothi</span></h1>
             </div>
         </>
     );
