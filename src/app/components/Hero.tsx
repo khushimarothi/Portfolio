@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image"
-import heroimg from "@/app/assets/mainimg.png"
+import heroimg from "@/app/assets/testimg2.png"
 import bg from "@/app/assets/bg.svg"
 
 const Hero = () => {
@@ -41,7 +41,7 @@ const Hero = () => {
                         </div>
 
                         <div className="flex flex-col flex-1 justify-center items-center order-1 lg:order-2">
-                            <Image src={heroimg} alt="hero image" className='h-3/4 w-4/6' />
+                            <Image src={heroimg} alt="hero image" className='h-[70%] w-[80%]' />
                         </div>
                     </div>
                 </div>
