@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image"
 import heroimg from "@/app/assets/testimg2.png"
-import bg from "@/app/assets/bg.svg"
+import bg from "@/app/assets/bg1.svg"
 
 const Hero = () => {
     const textStyles = {

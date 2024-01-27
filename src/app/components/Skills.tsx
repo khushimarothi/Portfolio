@@ -60,9 +60,9 @@ const Skills = () => {
   const [isHovered, setHovered] = useState(false)
   return (
     <>
-      <div className="flex justify-center items-center lg:px-32 px-8 lg:py-20 py-10 bg-gradient-to-r from-black via-black to-gray-900 ">
+      <div className="flex justify-center items-center lg:px-32 px-8 lg:py-20 py-10  bg-gradient-to-r from-black via-black to-gray-900 ">
 
-        <div className="container mx-auto">
+        <div className="container mx-auto ">
         {/* <div className="text-center sm:text-right before:block before:w-20 before:h-2 before:mb-2 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-gradient-to-r before:from-purple-800 
           before:via-purple-600 before:to-purple-400 before:bg-opacity-80 ">
 				</div> */}
@@ -70,7 +70,7 @@ const Skills = () => {
             <h1 className="font-bold lg:text-4xl text-2xl ">Technical Proficiency</h1>
           </div>
           
-          <div className="flex lg:flex-row flex-col justify-evenly  lg:gap-16 gap-8 ">
+          <div className="flex lg:flex-row flex-col justify-evenly lg:gap-16 gap-8  ">
 
             <div className="flex flex-col gap-5 flex-1">
               <div className="grid grid-cols-2  lg:grid-cols-2 lg:gap-10 gap-8">
@@ -97,8 +97,8 @@ const Skills = () => {
 
             </div>
 
-            <div className="flex flex-col gap-5 flex-1 ">
-              <div className=" rounded-lg glassmorphism">
+            <div className="flex flex-col gap-5 flex-1 min-h-[27rem] ">
+              <div className=" rounded-lg glassmorphism ">
 
                 <div className=' mb-2' style={{ border: '1px solid rgba(255, 255, 255, 0.125)' }}>
                   <p className='px-5 py-3 lg:text-lg text-sm font-semibold'>{selectedCategories[0]} </p>
