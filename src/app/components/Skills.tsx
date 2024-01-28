@@ -58,6 +58,13 @@ const Skills = () => {
   );
 
   const [isHovered, setHovered] = useState(false)
+  const textStyles = {
+    backgroundImage: 'linear-gradient(to right, rgb(147, 51, 234), rgb(192, 132, 252), rgb(107, 33, 168))',
+    WebkitBackgroundClip: 'text',
+    backgroundClip: 'text',
+    color: 'transparent',
+};
+
   return (
     <>
       <div className="flex justify-center items-center lg:px-32 px-8 lg:py-20 py-10  bg-gradient-to-r from-black via-black to-gray-900 ">
@@ -67,7 +74,7 @@ const Skills = () => {
           before:via-purple-600 before:to-purple-400 before:bg-opacity-80 ">
 				</div> */}
           <div className=" lg:pb-14 pb-8">
-            <h1 className="font-bold lg:text-4xl text-2xl ">Technical Proficiency</h1>
+            <h1 className="font-bold lg:text-4xl text-2xl " >Technical <span style={textStyles}>Proficiency </span> </h1>
           </div>
           
           <div className="flex lg:flex-row flex-col justify-evenly lg:gap-16 gap-8  ">

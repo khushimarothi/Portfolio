@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="flex justify-center items-center lg:px-32 px-8 lg:py-20 py-10 bg-gradient-to-r from-black via-black to-gray-900 ">
                 <div className="container mx-auto">
                     <div className="flex lg:flex-row flex-col lg:gap-16 gap-8 glassmorphism rounded-lg lg:px-14 lg:py-12 px-8 py-8 relative overflow-hidden">
-                    <div className='absolute overflow-hidden lg:-top-24 -top-10 left-0 w-full bg-blend-multiply '>
+                    <div className='absolute overflow-hidden lg:-top-24 -top-2 left-0 w-full bg-blend-multiply '>
                 <Image src={bg} alt='img'className='  w-full h-full object-fill ' style={{ opacity: 0.03}} />
                 </div>
 
@@ -30,17 +30,17 @@ const Contact = () => {
                             </div> */}
                         </div>
 
-                        <div className="flex flex-col justify-center items-center flex-1">
+                        <div className="flex flex-col flex-1 my-auto">
 
-                            <div className="flex lg:flex-row flex-wrap flex-col justify-center lg:gap-10 gap-4 ">
+                            <div className="flex lg:flex-row flex-wrap flex-col  lg:gap-10 gap-4 ">
 
-                                <div className="flex flex-col ">
+                                <div className="flex flex-col gap-2">
                                     <p className='lg:text-sm text-xs text-left'>Reach me at</p>
-                                    <h1 className='lg:text-xl text-sm font-semibold lg:tracking-wide break-words' style={textStyles} >khushimarothi16@gmail.com</h1>
+                                    <h1 className='lg:text-xl text-sm font-semibold lg:tracking-wide break-words' style={textStyles} > khushimarothi16@gmail.com</h1>
                                 </div>
-                                <div className="flex flex-col">
+                                <div className="flex flex-col gap-2">
                                     <p className='lg:text-sm text-xs'>or Call</p>
-                                    <h1 className='lg:text-xl text-sm font-semibold tracking-wide' style={textStyles} >+91-9340802902</h1>
+                                    <h1 className='lg:text-xl text-sm font-semibold tracking-wide' style={textStyles} > +91-9340802902 </h1>
                                 </div>
                             </div>
                         </div>
