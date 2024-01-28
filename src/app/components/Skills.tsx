@@ -49,7 +49,7 @@ const Skills = () => {
             <h2 className='text-xs mb-2'>{skill}</h2>
             <h2 className='text-xs mb-2'>{percentage}%</h2>
           </div>
-          <div className='bg-stroke dark:bg-gray-300 relative h-1.5 w-full rounded-2xl'>
+          <div className='bg-stroke bg-gray-300 relative h-1.5 w-full rounded-2xl'>
             <div className={` bg-gradient-to-r from-purple-900  to-purple-600 absolute top-0 left-0 h-full rounded-2xl`} style={{ width: `${percentage}%` }}></div>
           </div>
         </div>
