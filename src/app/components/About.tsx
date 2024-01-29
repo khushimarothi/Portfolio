@@ -8,17 +8,18 @@ const About = () => {
         color: 'transparent',
     };
     return (
-        <div className='xl:min-h-[100vh] bg-gradient-to-r from-black via-black to-gray-900 '>
+        <div className='xl:min-h-[100vh] bg-gradient-to-r from-black via-black to-gray-900 ' id="about">
             <div className="flex justify-center items-center  lg:px-32 px-8 lg:pt-28 lg:pb-16 py-10">
 
                 <div className="container mx-auto ">
-                <div className="lg:pb-14 pb-8">
-                        <h1 className="font-bold lg:text-4xl text-2xl ">About <span style={textStyles} > Me  </span></h1>
-                    </div>
+                
                     <div className="flex lg:flex-row flex-col justify-evenly  lg:gap-16 gap-8 ">
 
                     <div className="flex flex-col  flex-1 gap-3 ">
-                        <h3 className="lg:text-3xl text-lg font-bold pb-4 lg:max-w-[550px] " >I <span style={textStyles} > design </span>  and <span style={textStyles} > code </span> beautifully simple things, and I love what <span style={textStyles} > I do</span>.</h3>
+                    <div className="lg:pb-4 pb-8">
+                        <h1 className="font-bold lg:text-4xl text-2xl ">About <span style={textStyles} > Me  </span></h1>
+                    </div>
+                        <h3 className="lg:text-3xl text-lg font-bold pb-4 lg:max-w-[550px] " >I <span  > design </span>  and <span> code </span> beautifully simple things, and I <span style={textStyles} >love what I do</span>.</h3>
                             <p className="lg:text-base text-sm text-gray-400 lg:max-w-[525px]">Hello there, I'm Khushi Marothi – your friendly neighborhood frontend wizard, competitive coding ninja, and the self-proclaimed Picasso of pixels! When I'm not busy crafting delightful UI/UX experiences that make websites jealous, you can catch me in a coding duel, challenging bugs to a friendly match. Open source is my playground, where I've left my mark on more projects than my coffee cup has left on my keyboard. They say laughter is the best medicine, but have you tried debugging with a punchline? Spoiler alert: It works wonders!</p>
                         </div>
                        
@@ -37,7 +38,7 @@ const About = () => {
                                 </div>
                         </div> */}
 
-<h1 className="lg:text-3xl text-lg font-semibold  pb-2 ">Why <span style={textStyles}> Collaborate  </span> With Me</h1>
+<h1 className="lg:text-3xl text-lg font-semibold  pb-4 ">Why <span style={textStyles}> Collaborate  </span> With Me</h1>
 
 <div className='relative flex flex-col gap-5'>
 <div className="flex flex-row gap-1  ">

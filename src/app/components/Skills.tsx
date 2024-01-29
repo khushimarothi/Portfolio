@@ -67,7 +67,8 @@ const Skills = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center lg:px-32 px-8 lg:py-20 py-10  bg-gradient-to-r from-black via-black to-gray-900 ">
+      <div id="skills" className="flex justify-center items-center lg:px-32 px-8 lg:py-20 py-10  bg-gradient-to-r from-black via-black to-gray-900 "> 
+
 
         <div className="container mx-auto ">
         {/* <div className="text-center sm:text-right before:block before:w-20 before:h-2 before:mb-2 before:rounded-md before:mx-auto sm:before:mx-0 before:dark:bg-gradient-to-r before:from-purple-800 

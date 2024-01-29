@@ -18,7 +18,7 @@ const Experience = () => {
 
 	return (
 		<>
-			<div className="flex justify-center items-center lg:px-32 px-8 lg:py-20 py-10 bg-gradient-to-r from-black via-black to-gray-900 ">
+			<div id='experience' className="flex justify-center items-center lg:px-32 px-8 lg:py-20 py-10 bg-gradient-to-r from-black via-black to-gray-900 ">
 
 				<div className="container mx-auto">
 					<div className="lg:pb-14 pb-8">
