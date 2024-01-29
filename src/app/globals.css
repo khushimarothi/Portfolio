@@ -69,3 +69,11 @@ body {
   -webkit-backdrop-filter: blur(8px) saturate(100%);
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+.gradient-hover{
+  transition: 'background-image 0.3s ease-in-out';
+}
+.gradient-hover:hover{
+  backgroundImage: 'linear-gradient(to right, rgb(107, 33, 168), rgb(126, 34, 206))';
+  transition: 'background-image 0.3s ease-in-out';
+}

@@ -4,6 +4,13 @@ import { SiLeetcode } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
+    const textStyles = {
+        backgroundImage: 'linear-gradient(to right, rgb(147, 51, 234), rgb(192, 132, 252), rgb(107, 33, 168))',
+        WebkitBackgroundClip: 'text',
+        backgroundClip: 'text',
+        color: 'transparent',
+    };
+
     return (
         <>
             <div className="py-3 px-8 bg-black">
@@ -18,20 +25,15 @@ const Footer = () => {
                         <Link href="https://www.github.com/khushimarothi/" ><FaGithub size={25} className='cursor-pointer' /> </Link>
                         <Link href="https://www.leetcode.com/khushi_marothi/" ><SiLeetcode size={25} className='cursor-pointer' /> </Link>
                         <Link href="https://twitter.com/KhushiMarothi" ><FaXTwitter size={25} className='cursor-pointer' /> </Link>
-                        <Link href="https://www.linkedin.com/in/khushi-marothi/" ><FaInstagram size={25} className='cursor-pointer'  /></Link>
-                       
-                        
-
-                        
-                        
+                        {/* <Link href="https://www.linkedin.com/in/khushi-marothi/" ><FaInstagram size={25} className='cursor-pointer'  /></Link> */}
 
                     </div>
                 </div>
 
             </div>
 
-            <div className="py-2 flex flex-row justify-center items-center bg-black"> 
-            <h1 className="lg:text-sm text-xs text-gray-400"> All rights reserved. Created by <span className="">Khushi Marothi</span></h1>
+            <div className="py-2 px-8 flex flex-row justify-center items-center text-center bg-black"> 
+            <h1 className="lg:text-sm text-xs text-gray-400"> All rights reserved. Designed & Developed by <span style={textStyles}>Khushi Marothi</span></h1>
             </div>
         </>
     );

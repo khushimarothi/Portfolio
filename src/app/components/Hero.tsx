@@ -21,6 +21,7 @@ const Hero = () => {
                 <div className='absolute overflow-hidden -top-24 left-0 w-full bg-blend-multiply '>
                 <Image src={bg} alt='img'className='  w-full h-full object-fill ' style={{ opacity: 0.04}} />
                 <Image src={bg} alt='img'className='  w-full h-full object-fill -mt-12 lg:hidden block' style={{ opacity: 0.04}}  />
+                <Image src={bg} alt='img'className='  w-full h-full object-fill -mt-12 lg:hidden block' style={{ opacity: 0.04}}  />
                 </div>
 
                 <div className="container mx-auto z-40">

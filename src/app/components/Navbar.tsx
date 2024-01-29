@@ -66,13 +66,13 @@ const Navbar = () => {
 
  return (
    <nav className="flex items-center justify-between flex-wrap px-8 py-5 fixed w-full -top-1 z-50 bg-transparent nav-glass">
-     <div className="flex items-center  text-white mr-6 lg:mr-72 mb-2 ">
-     <h1 className='text-3xl font-semibold font-signature px-3 '> KM</h1>
+     <div className=" text-white mr-6 lg:mr-72 mb-2 ">
+     <h1 className='text-3xl font-semibold font-signature mt-2'> KM</h1>
      </div>
      <div className="block lg:hidden">
        <button
          onClick={() => setIsOpen(!isOpen)}
-         className="flex items-center px-3 py-2 rounded text-black-500 transition-transform ease-in-out hover:text-black-400"
+         className="flex items-center rounded text-black-500 transition-transform ease-in-out hover:text-black-400"
        >
 
 <CgMenuRight className={`fill-current h-6 w-6 ${isOpen ? "hidden" : "block"}`} />
