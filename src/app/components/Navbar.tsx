@@ -56,18 +56,43 @@
 
 // export default Navbar;
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from "next/link"
 import { LiaTimesSolid } from "react-icons/lia";
 import { CgMenuRight } from "react-icons/cg";
 
 const Navbar = () => {
  const [isOpen, setIsOpen] = useState(false);
+ const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const navClass = `flex items-center justify-between flex-wrap px-8 py-4 fixed w-full -top-1 z-50 ${
+    scrolling ? 'bg-gradient-to-r from-gray-900 to-gray-950 ' : 'nav-glass'
+  }`;
+
+  const closeNav = () => {
+    setIsOpen(false);
+  };
 
  return (
-   <nav className="flex items-center justify-between flex-wrap px-8 py-5 fixed w-full -top-1 z-50 bg-transparent nav-glass">
+   <nav className={navClass}>
      <div className=" text-white mr-6 lg:mr-72 mb-2 ">
-     <h1 className='text-3xl font-semibold font-signature mt-2'> KM</h1>
+     <h1 className='text-2xl font-semibold font-signature mt-2'> KM</h1>
      </div>
      <div className="block lg:hidden">
        <button
@@ -86,32 +111,32 @@ const Navbar = () => {
        </button>
      </div>
      <div
-       className={`w-full block  lg:flex justify-centeritems-center text-center lg:w-auto  ${isOpen ? "block" : "hidden"}`}
+       className={`w-full block  lg:flex justify-centeritems-center text-center lg:w-auto  transition-all duration-700  ${isOpen ? "block" : "hidden"}`}
      >
        <div className="text-sm ">
          <Link href="#about">
-         <p className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10">
+         <p  onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10 transition-all duration-700">
            About
          </p>
         </Link>
-        <Link href="#skills">  
-         <p className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10">
+        <Link href="#skills" >  
+         <p onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10 transition-all duration-700">
            Skills
          </p>
          </Link>
          <Link href="#experience"> 
-         <p className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10">
+         <p onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10 transition-all duration-700">
            Experience
          </p>
          </Link>
          <Link href="#project"> 
-         <p className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10">
+         <p onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10 transition-all duration-700">
            Portfolio
          </p>
          </Link>
          <Link href="#contact"> 
-         <p className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 w-min mx-auto  bg-gradient-to-r
-         from-purple-900 to-purple-700 px-3 py-1 rounded-md 
+         <p onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 w-min mx-auto  bg-gradient-to-r
+         from-purple-900 to-purple-700 px-3 py-1 rounded-md transition-all duration-700
          ">
           Contact
          </p>

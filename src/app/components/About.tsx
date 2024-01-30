@@ -7,8 +7,9 @@ const About = () => {
         backgroundClip: 'text',
         color: 'transparent',
     };
+
     return (
-        <div className='xl:min-h-[100vh] bg-gradient-to-r from-black via-black to-gray-900 ' id="about">
+        <div className='xl:min-h-[100vh] bg-gradient-to-r from-black via-black to-gray-900 transition ease-in-out duration-1000 ' id="about" >
             <div className="flex justify-center items-center  lg:px-32 px-8 lg:pt-28 lg:pb-16 py-10">
 
                 <div className="container mx-auto ">

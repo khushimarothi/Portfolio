@@ -34,7 +34,7 @@ const Hero = () => {
                                 <h1 style={textStyles}  className='lg:text-7xl text-3xl rounded-md font-semibold ' >  Khushi Marothi  </h1>
 
                                 <div className='flex flex-row flex-wrap items-center py-3'>
-                                    <div className="border-b text-white w-10 border-white mr-3 hidden lg:block"></div>
+                                    <div className="border-b text-white w-10 border-white mr-3 hidden xl:block"></div>
                                     <h1 className='lg:text-lg text-sm rounded-md font-normal text-gray-400 '> Frontend Developer, Open Source Enthusiast </h1>
                                 </div>
 
