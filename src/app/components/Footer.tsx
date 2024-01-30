@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
 
             <div className="py-2 px-8 flex flex-row justify-center items-center text-center bg-gradient-to-r from-gray-900 to-gray-950"> 
-            <h1 className="lg:text-sm text-xs text-gray-400"> All rights reserved. Designed & Developed by <span className='text-purple-300'>Khushi Marothi</span></h1>
+            <h1 className="lg:text-sm text-xs text-purple-300"> All rights reserved. Designed & Developed by <span className='text-purple-300'>Khushi Marothi</span></h1>
             </div>
         </>
     );

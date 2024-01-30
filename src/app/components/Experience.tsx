@@ -95,13 +95,13 @@ const Experience = () => {
 												<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700">
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h3 className="lg:text-xl text-lg font-semibold tracki">B.Tech ( Computer Science & Business System ) </h3>
-														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-gray-300">School of Information Technology, RGPV </h3>
+														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-purple-300">School of Information Technology, RGPV </h3>
 														<time className="text-xs tracki uppercase text-gray-400">2020 - Present</time>
 														<p className="mt-3"><span className='font-bold text-base'>CGPA</span> - 8.84 / 10</p>
 													</div>
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h3 className="lg:text-xl text-lg font-semibold tracki">Higher Secondary Education ( CBSE ) </h3>
-														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-gray-300">St. John's Sr Sec School ( Damoh ) </h3>
+														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-purple-300">St. John's Sr Sec School ( Damoh ) </h3>
 														<time className="text-xs tracki uppercase text-gray-400">2018 - 2020</time>
 														<p className="mt-3"><span className='font-bold text-base'>Percentage</span> - 94.8%</p>
 													</div>
