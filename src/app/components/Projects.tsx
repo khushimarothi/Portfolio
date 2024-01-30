@@ -40,12 +40,12 @@ const Projects = () => {
                             <Image
                                 src={project1}
                                 alt="pro"
-                                className="lg:h-full lg:w-full w-96 h-56 "
+                                className="lg:h-full lg:w-full "
                             />
                         </div>
 
                         <div className="flex flex-col flex-1 lg:gap-5 gap-2 lg:-ml-36">
-                            <h1 className="lg:text-3xl text-lg font-semibold pb-2 lg:text-right">Talent Tie</h1>
+                            <h1 className="lg:text-3xl text-lg font-semibold lg:text-right pb-1">Talent Tie</h1>
 
                             <div className="flex flex-row gap-5 lg:justify-end">
                                 <div>
@@ -58,12 +58,12 @@ const Projects = () => {
                                 </div>
                             </div>
 
-                            <p className="lg:text-base text-sm text-gray-400 py-4 text-left lg:text-right lg:bg-gradient-to-r from-gray-950 to-gray-800 lg:px-5 rounded-sm ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi perferendis fugiat laudantium, eaque porro odio accusamus est blanditiis eius at neque vero quae delectus voluptas aut doloremque dolore ratione autem provident perspiciatis sed! Totam dolore provident, facilis qui non, amet maxime laborum suscipit magnam repellendus alias fugiat voluptate deleniti ab.</p>
+                            <p className="xl:text-base text-sm text-gray-400 py-4 text-left lg:text-right lg:bg-gradient-to-r from-gray-950 to-gray-800 lg:px-5 rounded-md xl:my-2">Talent Tie is a revolutionary social media platform fostering meaningful connections between students, alumni, and teachers. Empowering students to engage with alumni for valuable insights, referrals, and community participation, the platform also offers domain-specific learning opportunities. With an innovative chatbot feature, users can receive prompt assistance, ensuring a seamless experience even when direct support is unavailable.</p>
 
                             <div className="flex flex-row flex-wrap lg:gap-8 md:gap-6 gap-4 items-center lg:justify-end">
                                 <p className=" lg:text-sm text-xs ">TypeScript</p>
                                 <p className=" lg:text-sm text-xs ">TailwindCSS</p>
-                                <p className=" lg:text-sm text-xs ">NextJs</p>
+                                <p className=" lg:text-sm text-xs ">Nextjs</p>
                             </div>
                         </div>
 
@@ -84,24 +84,27 @@ const Projects = () => {
                         </div>
 
                         <div className="flex flex-col flex-1 lg:gap-5 gap-2 lg:-mr-36 z-30 order-2 lg:order-1 ">
-                            <h1 className="lg:text-3xl text-lg font-semibold pb-2 lg:text-left">Fiverr Clone</h1>
+                            <h1 className="lg:text-3xl text-lg font-semibold pb-1 lg:text-left">Fiverr Clone</h1>
 
                             <div className="flex flex-row gap-5 ">
                                 <div>
-                                <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" > <FaGithub size={20}/> <span>Source Code</span> </button>
+                                    <Link href="https://github.com/khushimarothi/fiverr_clone_ui">
+                                <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" style={buttonHoverEffect}> <FaGithub size={20}/> <span>Source Code</span> </button>
+                                </Link>
                                 </div>
                                 <div>
-
-                                    <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" > <PiShareFatLight size={20}/> <span>Live demo</span> </button>
+                                <Link href="https://fiverr-clone-ui.netlify.app/"> 
+                                    <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" > <PiShareFatLight size={20}/> <span>Live demo</span> </button> 
+                                </Link>
                                 </div>
                             </div>
 
-                            <p className="lg:text-base text-sm text-gray-400 py-4 text-left  lg:bg-gradient-to-l from-gray-950 to-gray-800 lg:px-5 rounded-sm ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi perferendis fugiat laudantium, eaque porro odio accusamus est blanditiis eius at neque vero quae delectus voluptas aut doloremque dolore ratione autem provident perspiciatis sed! Totam dolore provident, facilis qui non, amet maxime laborum suscipit magnam repellendus alias fugiat voluptate deleniti ab.</p>
+                            <p className="xl:text-base text-sm text-gray-400 py-4 text-left  lg:bg-gradient-to-l from-gray-950 to-gray-800 lg:px-5 rounded-md xl:my-2">Fiver Clone UI mirrors the renowned Fiverr website's frontend, showcasing a user-friendly design across various pages, including features such as gig creation and listing. This UI replica captures the essence of Fiverr's interface, providing a familiar and intuitive experience for users exploring and adding new gigs.</p>
 
                             <div className="flex flex-row flex-wrap lg:gap-8 md:gap-6 gap-4 items-center ">
                                 <p className=" lg:text-sm text-xs ">ReactJs</p>
                                 <p className=" lg:text-sm text-xs ">SCSS</p>
-                                <p className=" lg:text-sm text-xs ">NextJs</p>
+                           
                             </div>
                         </div>
 

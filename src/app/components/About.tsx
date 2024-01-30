@@ -17,7 +17,7 @@ const About = () => {
                     <div className="flex lg:flex-row flex-col justify-evenly  lg:gap-16 gap-8 ">
 
                     <div className="flex flex-col  flex-1 gap-3 ">
-                    <div className="lg:pb-4 pb-8">
+                    <div className=" pb-4">
                         <h1 className="font-bold lg:text-4xl text-2xl ">About <span style={textStyles} > Me  </span></h1>
                     </div>
                         <h3 className="lg:text-3xl text-lg font-bold pb-4 lg:max-w-[550px] " >I <span  > design </span>  and <span> code </span> beautifully simple things, and I <span style={textStyles} >love what I do</span>.</h3>

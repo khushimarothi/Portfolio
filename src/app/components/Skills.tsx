@@ -1,8 +1,20 @@
 "use client"
 import { useState } from 'react';
 import { FiCode } from 'react-icons/fi';
+import Image from 'next/image';
+import frontend from "@/app/assets/frontenddev.svg"
+import tools from "@/app/assets/tools.svg"
+import softskills from "@/app/assets/softskills.svg"
+import other from "@/app/assets/other.svg"
 
 const Skills = () => {
+  const categoryImages: { [key: string]: any } =  {
+    Frontend: frontend,
+    Tools: tools, // replace 'toolImage' with the actual image source for the Tools category
+    'Soft Skills': softskills, // replace 'softSkillsImage' with the actual image source for the Soft Skills category
+    Others: other, // replace 'othersImage' with the actual image source for the Others category
+  };
+
   const [selectedCategories, setSelectedCategories] = useState<string[]>(['Frontend']);
 
   const handleCategoryChange = (category: string) => {
@@ -93,8 +105,8 @@ const Skills = () => {
                     onMouseEnter={() => setHovered(true)}
                     onMouseLeave={() => setHovered(false)}
                   >
-                    <div className='absolute -top-4 -left-4  text-white bg-gradient-to-r from-gray-800 to-gray-700 px-3 py-3 rounded-md text-center '>
-                      <FiCode className="text-xl  text-white text-center" />
+                    <div className='absolute -top-4 -left-4  text-white bg-gradient-to-r from-gray-800 to-gray-700 px-2 py-2 rounded-md text-center '>
+                    <Image src={categoryImages[category]} alt='' className='h-7 w-7 bg-cover fill-current' />
                     </div>
                     <h1 className="lg:text-xl text-sm font-bold text-center break-all">{category}</h1>
                   </div>

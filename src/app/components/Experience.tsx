@@ -35,7 +35,7 @@ const Experience = () => {
 									onMouseLeave={() => setHoveredTab(null)}>
 									<h1 className='lg:text-xl text-sm font-bold text-center'>Work Experience </h1>
 								</div>
-								<div className={`gap-10  rounded-md p-5 lg:w-2/4 cursor-pointer glassmorphism ${(activeTab === 'education' || hoveredTab === 'education') ? 'bg-gradient-to-r from-purple-800 to-purple-700' : ''
+								<div className={`gap-10 flex justify-center rounded-md p-5 lg:w-2/4 cursor-pointer glassmorphism ${(activeTab === 'education' || hoveredTab === 'education') ? 'bg-gradient-to-r from-purple-800 to-purple-700' : ''
 									}`}
 									onClick={() => handleTabClick('education')}
 									onMouseEnter={() => setHoveredTab('education')}
@@ -55,7 +55,7 @@ const Experience = () => {
 												<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700">
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h3 className="lg:text-xl text-lg font-semibold tracki">Frontend Development Intern </h3>
-														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-gray-300">CrewLance.in</h3>
+														<h3 className="lg:text-lg text-base font-medium tracki pb-1  text-purple-300" >CrewLance.in</h3>
 														<time className="text-xs tracki uppercase text-gray-400">Dec 2023 - Jan 2024</time>
 														<ul className="list-disc py-2 list-inside   text-sm">
 															<li className='mt-3'>Integral part of a dynamic team, contributing to the creation of CrewLance's official website frontend from inception. Actively involved in designing and implementing user interfaces using  TypeScript, Next.js, and Tailwind CSS.</li>
@@ -64,7 +64,7 @@ const Experience = () => {
 													</div>
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h3 className="lg:text-xl text-lg font-semibold tracki">DevRel Contributor </h3>
-														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-gray-300">Keploy</h3>
+														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-purple-300">Keploy</h3>
 														<time className="text-xs tracki uppercase text-gray-400">May 2023 - June 2023</time>
 														<ul className="list-disc py-2 list-inside   text-sm">
 															<li className='mt-3'>Promoted Keploy to a  wider audience by participating in online discussions and  posts about the tool.</li>
@@ -73,7 +73,7 @@ const Experience = () => {
 													</div>
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h3 className="lg:text-xl text-lg font-semibold tracki">Open Source Contributor </h3>
-														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-gray-300">JWoC</h3>
+														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-purple-300">JWoC</h3>
 														<time className="text-xs tracki uppercase text-gray-400">Feb 2023 - March 2023</time>
 														<ul className="list-disc py-2 list-inside   text-sm">
 															<li className='mt-3'>Achieved  11th place out of  60+ participants in this prestigious  Open-Source event, showcasing strong problem-solving abilities and a commitment to excellence.</li>
