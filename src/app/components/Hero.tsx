@@ -12,7 +12,7 @@ const Hero = () => {
     };
     const backgroundStyles = {
         backgroundImage: 'radial-gradient(ellipse at top right, var(--tw-gradient-stops))',
-        backgroundColor: 'rgba(0, 0, 0, 0.7)', // You can adjust the alpha (last value) to control the darkness
+        backgroundColor: 'rgba(0, 0, 0, 0.7)', 
         backgroundBlendMode: 'multiply', 
     };
     return (

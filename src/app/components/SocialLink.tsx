@@ -48,9 +48,8 @@ const SocialLinks: React.FC = () => {
           <p className='pl-3'> Resume </p> <BsFillPersonLinesFill size={18} />
         </>
       ),
-      href: '/khushimarothi.pdf',
+      href: 'https://drive.google.com/file/d/1ToRLhqnQRbpXoNR7FSKk12kS8oQTZkm1/view?usp=sharing',
       style: 'rounded-br-md',
-      download: true,
     },
   ];
 
