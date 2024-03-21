@@ -33,7 +33,7 @@ import hackerrank from "@/app/assets/platforms/hackerrank.svg"
 const Skills = () => {
   const categoryImages: { [key: string]: any } = {
     Frontend: frontend,
-    Tools: tools, 
+    Tools: tools,
     Others: softskills,
     'CP Platform': other,
   };
@@ -67,7 +67,7 @@ const Skills = () => {
       { skill: 'VS Code', image: vscode },
     ],
     Others: [
-      { skill: 'C++', image: cpp},
+      { skill: 'C++', image: cpp },
       { skill: 'C', image: c },
       { skill: 'MySQL', image: mysql },
       { skill: 'Figma', image: figma },
@@ -76,9 +76,9 @@ const Skills = () => {
       { skill: 'Leetcode', image: leetcode, link: 'https://leetcode.com/khushi_marothi' },
       { skill: 'GeeksforGeeks', image: gfg, link: 'https://auth.geeksforgeeks.org/user/khushimarothi2002' },
       { skill: 'HackerRank', image: hackerrank, link: 'https://www.hackerrank.com/profile/khushimarothi201' },
-      
+
     ],
-    
+
   };
 
   const renderProgressBar = (skills: { skill: string; image: string; link?: string }[]) => (
@@ -107,8 +107,8 @@ const Skills = () => {
       ))}
     </div>
   );
-  
-  
+
+
   const [isHovered, setHovered] = useState(false)
   const textStyles = {
     backgroundImage: 'linear-gradient(to right, rgb(147, 51, 234), rgb(192, 132, 252), rgb(107, 33, 168))',
@@ -158,7 +158,7 @@ const Skills = () => {
               <div className=" rounded-lg  ">
 
                 <div className=' mb-2'>
-                 
+
                   <p className=' mb-2 lg:text-lg text-base font-semibold'>{selectedCategories[0]} </p>
                   <div className='bg-gradient-to-r from-purple-800 to-purple-500 rounded-full w-10 h-2 '></div>
                 </div>

@@ -10,11 +10,11 @@ const Experience = () => {
 	};
 
 	const textStyles = {
-        backgroundImage: 'linear-gradient(to right, rgb(147, 51, 234), rgb(192, 132, 252), rgb(107, 33, 168))',
-        WebkitBackgroundClip: 'text',
-        backgroundClip: 'text',
-        color: 'transparent',
-    };
+		backgroundImage: 'linear-gradient(to right, rgb(147, 51, 234), rgb(192, 132, 252), rgb(107, 33, 168))',
+		WebkitBackgroundClip: 'text',
+		backgroundClip: 'text',
+		color: 'transparent',
+	};
 
 	return (
 		<>
@@ -53,6 +53,18 @@ const Experience = () => {
 										<div className="grid gap-4 ">
 											<div className="relative col-span-12 px-4 space-y-6 ">
 												<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700">
+													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
+														<h3 className="lg:text-xl text-lg font-semibold tracki">Software Development Intern </h3>
+														<h3 className="lg:text-lg text-base font-medium tracki pb-1  text-purple-300" >Walkover Web Solution</h3>
+														<time className="text-xs tracki uppercase text-gray-400">Feb 2024 - Present</time>
+														<ul className="list-disc py-2 list-inside   text-sm">
+															<li className='mt-3'>Played a pivotal role in the development of integration page of viaSocket, a key product at Walkover, focusing on feature enhancement.
+															</li>
+															<li className='mt-3'>Collaborating closely with the team to optimize functionality and user experience, contributing to the overall improvement of the product through innovative solutions.
+															</li>
+
+														</ul>
+													</div>
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h3 className="lg:text-xl text-lg font-semibold tracki">Frontend Development Intern </h3>
 														<h3 className="lg:text-lg text-base font-medium tracki pb-1  text-purple-300" >CrewLance.in</h3>
