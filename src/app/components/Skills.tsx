@@ -92,7 +92,7 @@ const Skills = () => {
                 alt={skill}
                 className={`h-16 w-16 ${['NextJS', 'Github'].includes(skill) ? 'invert' : ''}`}
                 style={{ filter: ['NextJS', 'Github'].includes(skill) ? 'invert(1)' : 'none' }}
-                height={196} width={320}
+                height={320} width={196}
               />
             </Link>
           ) : (
@@ -101,7 +101,7 @@ const Skills = () => {
               alt={skill}
               className={`h-16 w-16 ${['NextJS', 'Github'].includes(skill) ? 'invert' : ''}`}
               style={{ filter: ['NextJS', 'Github'].includes(skill) ? 'invert(1)' : 'none' }}
-              height={196} width={320}
+              height={320} width={196}
             />
           )}
           <p className='text-xs text-gray-400 font-normal'>{skill}</p>
