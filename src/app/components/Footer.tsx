@@ -19,15 +19,15 @@ const Footer = () => {
                 <div className="flex md:flex-row flex-col gap-2 md:justify-between justify-center item-center mx-auto">
                     <div className=" px-3 py-2 flex justify-center items-center">
                         {/* <h1 className='font-signature text-3xl text-center font-bold'>KM</h1> */}
-                        <Image src={logo} alt='' className="lg:h-9 lg:w-12 h-6 w-8 text-center" />
+                        <Image src={logo} alt='logo' className="lg:h-9 lg:w-12 h-6 w-8 text-center" />
                     </div>
 
                     <div className='social-icon py-2 flex flex-row  gap-5 justify-center items-center text-center'>
 
-                        <Link href="https://www.linkedin.com/in/khushi-marothi/" ><FaLinkedin size={25} className='cursor-pointer' /> </Link>
-                        <Link href="https://www.github.com/khushimarothi/" ><FaGithub size={25} className='cursor-pointer' /> </Link>
-                        <Link href="https://www.leetcode.com/khushi_marothi/" ><SiLeetcode size={25} className='cursor-pointer' /> </Link>
-                        <Link href="https://twitter.com/KhushiMarothi" ><FaXTwitter size={25} className='cursor-pointer' /> </Link>
+                        <Link href="https://www.linkedin.com/in/khushi-marothi/" aria-label='linkedin' ><FaLinkedin size={25} className='cursor-pointer' /> </Link>
+                        <Link href="https://www.github.com/khushimarothi/" aria-label='github' ><FaGithub size={25} className='cursor-pointer' /> </Link>
+                        <Link href="https://www.leetcode.com/khushi_marothi/" aria-label='leetcode' ><SiLeetcode size={25} className='cursor-pointer' /> </Link>
+                        <Link href="https://twitter.com/KhushiMarothi" aria-label='twitter' ><FaXTwitter size={25} className='cursor-pointer' /> </Link>
                         {/* <Link href="https://www.linkedin.com/in/khushi-marothi/" ><FaInstagram size={25} className='cursor-pointer'  /></Link> */}
 
                     </div>

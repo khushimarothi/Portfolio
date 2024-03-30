@@ -49,12 +49,12 @@ const Projects = () => {
 
                             <div className="flex flex-row gap-5 lg:justify-end">
                                 <div>
-                                    <Link href="https://github.com/khushimarothi/TalentTie">
-                                <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2"  style={buttonHoverEffect}> <FaGithub size={20}/> <span>Source Code</span> </button></Link>
+                                    <Link href="https://github.com/khushimarothi/TalentTie" aria-label="soucecode">
+                                <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" aria-label="soucecode"  style={buttonHoverEffect}> <FaGithub size={20}/> <span>Source Code</span> </button></Link>
                                 </div>
                                 <div>
-                                    <Link href="https://talent-tie.vercel.app/"> 
-                                    <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2 gradient"  > <PiShareFatLight size={20}/> <span>Live demo</span> </button></Link>
+                                    <Link href="https://talent-tie.vercel.app/" aria-label="live"> 
+                                    <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2 gradient" aria-label="live" > <PiShareFatLight size={20}/> <span>Live demo</span> </button></Link>
                                 </div>
                             </div>
 
@@ -88,13 +88,13 @@ const Projects = () => {
 
                             <div className="flex flex-row gap-5 ">
                                 <div>
-                                    <Link href="https://github.com/khushimarothi/fiverr_clone_ui">
-                                <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" style={buttonHoverEffect}> <FaGithub size={20}/> <span>Source Code</span> </button>
+                                    <Link href="https://github.com/khushimarothi/fiverr_clone_ui" aria-label="soucecode">
+                                <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" aria-label="soucecode" style={buttonHoverEffect}> <FaGithub size={20}/> <span>Source Code</span> </button>
                                 </Link>
                                 </div>
                                 <div>
-                                <Link href="https://fiverr-clone-ui.netlify.app/"> 
-                                    <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" > <PiShareFatLight size={20}/> <span>Live demo</span> </button> 
+                                <Link href="https://fiverr-clone-ui.netlify.app/" aria-label="live"> 
+                                    <button className="px-4 py-2 border rounded-lg lg:text-base text-sm glassmorphism flex flex-wrap justify-center items-center gap-2" aria-label="live" > <PiShareFatLight size={20}/> <span>Live demo</span> </button> 
                                 </Link>
                                 </div>
                             </div>

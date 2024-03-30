@@ -70,6 +70,7 @@ const SocialLinks: React.FC = () => {
               className="flex justify-between items-center w-full text-white"
               target="_blank"
               rel="noreferrer"
+              aria-label="side"
             >
               {child}
             </a>

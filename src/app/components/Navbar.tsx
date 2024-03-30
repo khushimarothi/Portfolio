@@ -38,14 +38,15 @@ const Navbar = () => {
    <nav className={navClass}>
      <div className=" text-white mr-6 lg:mr-72 mb-2 ">
      {/* <h1 className='text-2xl font-semibold font-signature mt-2'> KM</h1> */}
-     <Link href="#head" >
-     <Image src={logo} alt='' className="lg:h-9 lg:w-12 h-6 w-8 mt-2" />
+     <Link href="#head" aria-label="home" >
+     <Image src={logo} alt='logo' className="lg:h-9 lg:w-12 h-6 w-8 mt-2" />
      </Link>
      </div>
      <div className="block lg:hidden">
        <button
          onClick={() => setIsOpen(!isOpen)}
          className="flex items-center rounded text-black-500 transition-transform ease-in-out hover:text-black-400"
+         aria-label="button"
        >
 
 <CgMenuRight className={`fill-current h-6 w-6 ${isOpen ? "hidden" : "block"}`} />
@@ -62,27 +63,27 @@ const Navbar = () => {
        className={`w-full block  lg:flex justify-centeritems-center text-center lg:w-auto  transition-all duration-700  ${isOpen ? "block" : "hidden"}`}
      >
        <div className="text-sm ">
-         <Link href="#about">
+         <Link href="#about" aria-label="about">
          <p  onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10 transition-all duration-700">
            About
          </p>
         </Link>
-        <Link href="#skills" >  
+        <Link href="#skills" aria-label="skills" >  
          <p onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10 transition-all duration-700">
            Skills
          </p>
          </Link>
-         <Link href="#experience"> 
+         <Link href="#experience" aria-label="experience"> 
          <p onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10 transition-all duration-700">
            Experience
          </p>
          </Link>
-         <Link href="#project"> 
+         <Link href="#project" aria-label="project"> 
          <p onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 lg:mr-10 transition-all duration-700">
            Portfolio
          </p>
          </Link>
-         <Link href="#contact"> 
+         <Link href="#contact" aria-label="contact"> 
          <p onClick={closeNav}  className="block lg:text-base font-semibold mt-4 lg:inline-block lg:mt-0 text-white-200 w-min mx-auto  bg-gradient-to-r
          from-purple-900 to-purple-700 px-3 py-1 rounded-md transition-all duration-700
          ">

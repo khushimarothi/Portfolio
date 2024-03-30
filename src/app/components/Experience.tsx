@@ -32,14 +32,18 @@ const Experience = () => {
 									}`}
 									onClick={() => handleTabClick('work')}
 									onMouseEnter={() => setHoveredTab('work')}
-									onMouseLeave={() => setHoveredTab(null)}>
+									onMouseLeave={() => setHoveredTab(null)}
+									aria-label='work experience'
+									>
 									<h1 className='lg:text-xl text-sm font-bold text-center'>Work Experience </h1>
 								</div>
 								<div className={`gap-10 flex justify-center rounded-md p-5 lg:w-2/4 cursor-pointer glassmorphism ${(activeTab === 'education' || hoveredTab === 'education') ? 'bg-gradient-to-r from-purple-800 to-purple-700' : ''
 									}`}
 									onClick={() => handleTabClick('education')}
 									onMouseEnter={() => setHoveredTab('education')}
-									onMouseLeave={() => setHoveredTab(null)}>
+									onMouseLeave={() => setHoveredTab(null)}
+									aria-label='education'
+									>
 									<h1 className='lg:text-xl text-sm font-bold text-center flex justify-center items-center my-auto'>Education</h1>
 
 								</div>
