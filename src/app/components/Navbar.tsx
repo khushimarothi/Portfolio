@@ -39,7 +39,7 @@ const Navbar = () => {
      <div className=" text-white mr-6 lg:mr-72 mb-2 ">
      {/* <h1 className='text-2xl font-semibold font-signature mt-2'> KM</h1> */}
      <Link href="#head" aria-label="home" >
-     <Image src={logo} alt='logo' className="lg:h-9 lg:w-12 h-6 w-8 mt-2" height={1080} width={1080} />
+     <Image src={logo} alt='logo' className="lg:h-9 lg:w-12 h-6 w-8 mt-2" height={360} width={403} />
      </Link>
      </div>
      <div className="block lg:hidden">
