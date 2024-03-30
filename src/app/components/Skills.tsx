@@ -92,6 +92,7 @@ const Skills = () => {
                 alt={skill}
                 className={`h-16 w-16 ${['NextJS', 'Github'].includes(skill) ? 'invert' : ''}`}
                 style={{ filter: ['NextJS', 'Github'].includes(skill) ? 'invert(1)' : 'none' }}
+                height={1080} width={1080}
               />
             </Link>
           ) : (
@@ -100,6 +101,7 @@ const Skills = () => {
               alt={skill}
               className={`h-16 w-16 ${['NextJS', 'Github'].includes(skill) ? 'invert' : ''}`}
               style={{ filter: ['NextJS', 'Github'].includes(skill) ? 'invert(1)' : 'none' }}
+              height={1080} width={1080}
             />
           )}
           <p className='text-xs text-gray-400 font-normal'>{skill}</p>
@@ -141,7 +143,7 @@ const Skills = () => {
                     onClick={() => handleCategoryChange(category)}
                     onMouseEnter={() => setHovered(true)}
                     onMouseLeave={() => setHovered(false)}
-                    
+
                   >
                     <div className='absolute -top-4 -left-4  text-white bg-gradient-to-r from-gray-800 to-gray-700 px-2 py-2 rounded-md text-center '>
                       <Image src={categoryImages[category]} alt='' className='h-7 w-7 bg-cover fill-current' />

@@ -42,7 +42,7 @@ const Hero = () => {
                         </div>
 
                         <div className="flex flex-col flex-1 justify-center items-center order-1 lg:order-2">
-                            <Image src={heroimg} alt="hero image" className='w-4/6 h-4/6' />
+                            <Image src={heroimg} alt="hero image" className='w-4/6 h-4/6' height={1080} width={1080} />
                         </div>
                     </div>
                 </div>

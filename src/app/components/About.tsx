@@ -20,7 +20,7 @@ const About = () => {
                     <div className=" pb-4">
                         <h1 className="font-bold lg:text-4xl text-2xl ">About <span style={textStyles} > Me  </span></h1>
                     </div>
-                        <h3 className="lg:text-3xl text-lg font-bold pb-4 lg:max-w-[550px] " >I <span  > design </span>  and <span> code </span> beautifully simple things, and I <span style={textStyles} >love what I do</span>.</h3>
+                        <h2 className="lg:text-3xl text-lg font-bold pb-4 lg:max-w-[550px] " >I <span  > design </span>  and <span> code </span> beautifully simple things, and I <span style={textStyles} >love what I do</span>.</h2>
                             <p className="lg:text-base text-sm text-gray-400 lg:max-w-[525px]">Hello there, I'm Khushi Marothi – your friendly neighborhood frontend wizard, competitive coding ninja, and the self-proclaimed Picasso of pixels! When I'm not busy crafting delightful UI/UX experiences that make websites jealous, you can catch me in a coding duel, challenging bugs to a friendly match. Open source is my playground, where I've left my mark on more projects than my coffee cup has left on my keyboard. They say laughter is the best medicine, but have you tried debugging with a punchline? Spoiler alert: It works wonders!</p>
                         </div>
                        

@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className="flex md:flex-row flex-col gap-2 md:justify-between justify-center item-center mx-auto">
                     <div className=" px-3 py-2 flex justify-center items-center">
                         {/* <h1 className='font-signature text-3xl text-center font-bold'>KM</h1> */}
-                        <Image src={logo} alt='logo' className="lg:h-9 lg:w-12 h-6 w-8 text-center" />
+                        <Image src={logo} alt='logo' className="lg:h-9 lg:w-12 h-6 w-8 text-center" height={1080} width={1080}/>
                     </div>
 
                     <div className='social-icon py-2 flex flex-row  gap-5 justify-center items-center text-center'>
