@@ -60,7 +60,7 @@ const Experience = () => {
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h2 className="lg:text-xl text-lg font-semibold tracki">Software Development Intern </h2>
 														<h3 className="lg:text-lg text-base font-medium tracki pb-1  text-purple-300" >Walkover Web Solution</h3>
-														<time className="text-xs tracki uppercase text-gray-400">Feb 2024 - Present</time>
+														<time className="text-xs tracki uppercase text-gray-400">Feb 2024 - May 2024</time>
 														<ul className="list-disc py-2 list-inside   text-sm">
 															<li className='mt-3'>Played a pivotal role in the development of integration page of viaSocket, a key product at Walkover, focusing on feature enhancement.
 															</li>
@@ -112,8 +112,8 @@ const Experience = () => {
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h2 className="lg:text-xl text-lg font-semibold tracki">B.Tech ( Computer Science & Business System ) </h2>
 														<h3 className="lg:text-lg text-base font-medium tracki pb-1 text-purple-300">School of Information Technology, RGPV </h3>
-														<time className="text-xs tracki uppercase text-gray-400">2020 - Present</time>
-														<p className="mt-3"><span className='font-bold text-base'>CGPA</span> - 8.87 / 10</p>
+														<time className="text-xs tracki uppercase text-gray-400">2020 - 2024</time>
+														<p className="mt-3"><span className='font-bold text-base'>CGPA</span> - 8.83 / 10</p>
 													</div>
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h3 className="lg:text-xl text-lg font-semibold tracki">Senior Secondary Education ( CBSE ) </h3>
