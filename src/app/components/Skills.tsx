@@ -25,6 +25,9 @@ import cpp from "@/app/assets/others/cpp.svg"
 import figma from "@/app/assets/others/figma.svg"
 import mysql from "@/app/assets/others/mysql.svg"
 import c from "@/app/assets/others/c.png"
+import python from "@/app/assets/others/python.png"
+import tkinter from "@/app/assets/others/tkinter.png"
+import jupyter from "@/app/assets/others/jupyter.png"
 
 import leetcode from "@/app/assets/platforms/Leetcode.png"
 import gfg from "@/app/assets/platforms/gfg.svg"
@@ -71,6 +74,9 @@ const Skills = () => {
       { skill: 'C', image: c },
       { skill: 'MySQL', image: mysql },
       { skill: 'Figma', image: figma },
+      { skill: 'Python', image: python },
+      { skill: 'Tkinter', image:tkinter },
+      { skill: 'Jupyter Notebook', image: jupyter },
     ],
     'CP Platform': [
       { skill: 'Leetcode', image: leetcode, link: 'https://leetcode.com/khushi_marothi' },
