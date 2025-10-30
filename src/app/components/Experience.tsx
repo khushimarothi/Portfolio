@@ -57,6 +57,16 @@ const Experience = () => {
 										<div className="grid gap-4 ">
 											<div className="relative col-span-12 px-4 space-y-6 ">
 												<div className="col-span-12 space-y-12 relative px-4 sm:col-span-8 sm:space-y-8 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-700">
+												<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
+														<h2 className="lg:text-xl text-lg font-semibold tracki">Security Delivery Associate </h2>
+														<h3 className="lg:text-lg text-base font-medium tracki pb-1  text-purple-300" >Accenture</h3>
+														<time className="text-xs tracki uppercase text-gray-400">Oct 2024 - Present</time>
+														<ul className="list-disc py-2 list-inside   text-sm">
+															<li className='mt-3'>Handled enterprise network security operations in a shared services environment, focusing on threat prevention and access control using Palo Alto NGFW, F5, Cisco Stealthwatch, and Cisco ISE.
+															</li>
+															<li className='mt-3'>Supported infrastructure security initiatives by implementing and monitoring firewall, load balancing, and network visibility solutions across multiple client environments.</li>
+														</ul>
+													</div>
 													<div className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-purple-600">
 														<h2 className="lg:text-xl text-lg font-semibold tracki">Software Development Intern </h2>
 														<h3 className="lg:text-lg text-base font-medium tracki pb-1  text-purple-300" >Walkover Web Solution</h3>
